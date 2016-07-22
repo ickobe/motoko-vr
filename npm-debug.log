@@ -1,0 +1,190 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'bootstrap', '-g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose cache add [ 'bootstrap', null ]
+5 verbose cache add name=undefined spec="bootstrap" args=["bootstrap",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'bootstrap',
+6 verbose parsed url   path: 'bootstrap',
+6 verbose parsed url   href: 'bootstrap' }
+7 silly lockFile 3c71cc99-bootstrap bootstrap
+8 verbose lock bootstrap /Users/akira/.npm/3c71cc99-bootstrap.lock
+9 silly lockFile 3c71cc99-bootstrap bootstrap
+10 silly lockFile 3c71cc99-bootstrap bootstrap
+11 verbose addNamed [ 'bootstrap', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 2571d98f-bootstrap bootstrap@
+14 verbose lock bootstrap@ /Users/akira/.npm/2571d98f-bootstrap.lock
+15 silly addNameRange { name: 'bootstrap', range: '*', hasData: false }
+16 verbose request where is /bootstrap
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 6e04ed4a247e3286
+19 verbose url raw /bootstrap
+20 verbose url resolving [ 'https://registry.npmjs.org/', './bootstrap' ]
+21 verbose url resolved https://registry.npmjs.org/bootstrap
+22 verbose request where is https://registry.npmjs.org/bootstrap
+23 info trying registry request attempt 1 at 14:14:44
+24 verbose etag "5K8L3AUR83IZHYZWB9BVVANDA"
+25 http GET https://registry.npmjs.org/bootstrap
+26 http 200 https://registry.npmjs.org/bootstrap
+27 silly registry.get cb [ 200,
+27 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"EKW67TM8B2NEI6E28RYB6PP51"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'content-encoding': 'gzip',
+27 silly registry.get     'cache-control': 'max-age=300',
+27 silly registry.get     'content-length': '8072',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Tue, 19 Jul 2016 05:14:46 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '79',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-nrt6130-NRT',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1468905286.070745,VS0,VE0',
+27 silly registry.get     vary: 'Accept-Encoding' } ]
+28 silly addNameRange number 2 { name: 'bootstrap', range: '*', hasData: true }
+29 silly addNameRange versions [ 'bootstrap',
+29 silly addNameRange   [ '0.0.1',
+29 silly addNameRange     '0.0.2',
+29 silly addNameRange     '3.1.1',
+29 silly addNameRange     '3.2.0',
+29 silly addNameRange     '3.3.0',
+29 silly addNameRange     '3.3.1',
+29 silly addNameRange     '3.3.2',
+29 silly addNameRange     '3.3.4',
+29 silly addNameRange     '3.3.5',
+29 silly addNameRange     '3.3.6',
+29 silly addNameRange     '4.0.0-alpha.2' ] ]
+30 verbose addNamed [ 'bootstrap', '3.3.6' ]
+31 verbose addNamed [ '3.3.6', '3.3.6' ]
+32 silly lockFile 6ebe7417-bootstrap-3-3-6 bootstrap@3.3.6
+33 verbose lock bootstrap@3.3.6 /Users/akira/.npm/6ebe7417-bootstrap-3-3-6.lock
+34 silly lockFile 6ebe7417-bootstrap-3-3-6 bootstrap@3.3.6
+35 silly lockFile 6ebe7417-bootstrap-3-3-6 bootstrap@3.3.6
+36 silly lockFile 2571d98f-bootstrap bootstrap@
+37 silly lockFile 2571d98f-bootstrap bootstrap@
+38 silly resolved [ { name: 'bootstrap',
+38 silly resolved     description: 'The most popular front-end framework for developing responsive, mobile first projects on the web.',
+38 silly resolved     version: '3.3.6',
+38 silly resolved     keywords:
+38 silly resolved      [ 'css',
+38 silly resolved        'less',
+38 silly resolved        'mobile-first',
+38 silly resolved        'responsive',
+38 silly resolved        'front-end',
+38 silly resolved        'framework',
+38 silly resolved        'web' ],
+38 silly resolved     homepage: 'http://getbootstrap.com',
+38 silly resolved     author: { name: 'Twitter, Inc.' },
+38 silly resolved     scripts: { test: 'grunt test' },
+38 silly resolved     style: 'dist/css/bootstrap.css',
+38 silly resolved     less: 'less/bootstrap.less',
+38 silly resolved     main: './dist/js/npm',
+38 silly resolved     repository:
+38 silly resolved      { type: 'git',
+38 silly resolved        url: 'git+https://github.com/twbs/bootstrap.git' },
+38 silly resolved     bugs: { url: 'https://github.com/twbs/bootstrap/issues' },
+38 silly resolved     license: 'MIT',
+38 silly resolved     devDependencies:
+38 silly resolved      { btoa: '~1.1.2',
+38 silly resolved        glob: '~6.0.1',
+38 silly resolved        grunt: '~0.4.5',
+38 silly resolved        'grunt-autoprefixer': '~3.0.3',
+38 silly resolved        'grunt-contrib-clean': '~0.6.0',
+38 silly resolved        'grunt-contrib-compress': '~0.14.0',
+38 silly resolved        'grunt-contrib-concat': '~0.5.1',
+38 silly resolved        'grunt-contrib-connect': '~0.11.2',
+38 silly resolved        'grunt-contrib-copy': '~0.8.0',
+38 silly resolved        'grunt-contrib-csslint': '~0.5.0',
+38 silly resolved        'grunt-contrib-cssmin': '~0.14.0',
+38 silly resolved        'grunt-contrib-htmlmin': '~0.6.0',
+38 silly resolved        'grunt-contrib-jade': '~0.15.0',
+38 silly resolved        'grunt-contrib-jshint': '~0.11.2',
+38 silly resolved        'grunt-contrib-less': '~1.1.0',
+38 silly resolved        'grunt-contrib-qunit': '~0.7.0',
+38 silly resolved        'grunt-contrib-uglify': '~0.9.2',
+38 silly resolved        'grunt-contrib-watch': '~0.6.1',
+38 silly resolved        'grunt-csscomb': '~3.1.0',
+38 silly resolved        'grunt-exec': '~0.4.6',
+38 silly resolved        'grunt-html': '~5.0.1',
+38 silly resolved        'grunt-jekyll': '~0.4.2',
+38 silly resolved        'grunt-jscs': '~2.3.0',
+38 silly resolved        'grunt-saucelabs': '~8.6.1',
+38 silly resolved        'grunt-sed': 'github:twbs/grunt-sed#v0.2.0',
+38 silly resolved        'load-grunt-tasks': '~3.3.0',
+38 silly resolved        'markdown-it': '^5.0.0',
+38 silly resolved        'npm-shrinkwrap': '^200.4.0',
+38 silly resolved        'time-grunt': '^1.2.1' },
+38 silly resolved     engines: { node: '>=0.10.1' },
+38 silly resolved     files:
+38 silly resolved      [ 'dist',
+38 silly resolved        'fonts',
+38 silly resolved        'grunt',
+38 silly resolved        'js/*.js',
+38 silly resolved        'less/**/*.less',
+38 silly resolved        'Gruntfile.js',
+38 silly resolved        'LICENSE' ],
+38 silly resolved     jspm: { main: 'js/bootstrap', shim: [Object], files: [Object] },
+38 silly resolved     gitHead: '81df608a40bf0629a1dc08e584849bb1e43e0b7a',
+38 silly resolved     _id: 'bootstrap@3.3.6',
+38 silly resolved     _shasum: '8de8f749dc8a743f2ac5b510d988371e3daa6589',
+38 silly resolved     _from: 'bootstrap@',
+38 silly resolved     _npmVersion: '2.11.3',
+38 silly resolved     _nodeVersion: '0.12.7',
+38 silly resolved     _npmUser: { name: 'twbs', email: 'getbootstrap@gmail.com' },
+38 silly resolved     dist:
+38 silly resolved      { shasum: '8de8f749dc8a743f2ac5b510d988371e3daa6589',
+38 silly resolved        tarball: 'https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.6.tgz' },
+38 silly resolved     maintainers: [ [Object] ],
+38 silly resolved     directories: {},
+38 silly resolved     _resolved: 'https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.6.tgz',
+38 silly resolved     readme: 'ERROR: No README data found!' } ]
+39 info install bootstrap@3.3.6 into /usr/local/lib
+40 info installOne bootstrap@3.3.6
+41 verbose lib/node_modules/bootstrap unbuild
+42 verbose tar unpack /Users/akira/.npm/bootstrap/3.3.6/package.tgz
+43 silly lockFile d36ff3fd-local-lib-node-modules-bootstrap tar:///usr/local/lib/node_modules/bootstrap
+44 verbose lock tar:///usr/local/lib/node_modules/bootstrap /Users/akira/.npm/d36ff3fd-local-lib-node-modules-bootstrap.lock
+45 silly lockFile f2023715--npm-bootstrap-3-3-6-package-tgz tar:///Users/akira/.npm/bootstrap/3.3.6/package.tgz
+46 verbose lock tar:///Users/akira/.npm/bootstrap/3.3.6/package.tgz /Users/akira/.npm/f2023715--npm-bootstrap-3-3-6-package-tgz.lock
+47 silly gunzTarPerm modes [ '755', '644' ]
+48 error Error: EACCES, mkdir '/usr/local/lib/node_modules/bootstrap'
+48 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/bootstrap']
+48 error   errno: 3,
+48 error   code: 'EACCES',
+48 error   path: '/usr/local/lib/node_modules/bootstrap',
+48 error   fstream_type: 'Directory',
+48 error   fstream_path: '/usr/local/lib/node_modules/bootstrap',
+48 error   fstream_class: 'DirWriter',
+48 error   fstream_stack:
+48 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+48 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+48 error      'Object.oncomplete (fs.js:108:15)' ] }
+49 error Please try running this command again as root/Administrator.
+50 error System Darwin 15.5.0
+51 error command "node" "/usr/local/bin/npm" "install" "bootstrap" "-g"
+52 error cwd /Users/akira/Desktop/motoko
+53 error node -v v0.10.35
+54 error npm -v 1.4.28
+55 error path /usr/local/lib/node_modules/bootstrap
+56 error fstream_path /usr/local/lib/node_modules/bootstrap
+57 error fstream_type Directory
+58 error fstream_class DirWriter
+59 error code EACCES
+60 error errno 3
+61 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/bootstrap'
+62 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+62 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+62 error fstream_stack Object.oncomplete (fs.js:108:15)
+63 verbose exit [ 3, true ]
