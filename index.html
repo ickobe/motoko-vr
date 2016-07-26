@@ -4,15 +4,28 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		
-        <title>MotokoVR DEMO</title>
         
+        <title>Entry to the Matsue castle</title>
+        
+        <!-- necessary for flat-ui -->
         <link rel="stylesheet" href="./css/flat-ui.min.css">
         <link href="./css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="./css/main.css">
+        
+        <!-- necessary for prettyPhoto.js -->
+        <script src="./js/vendor/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+        <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
                 
 	</head>
 	<body> 
+        
+        <!-- initialize prettyPhoto -->
+        <script type="text/javascript" charset="utf-8">
+          $(document).ready(function(){
+            $("a[rel^='prettyPhoto']").prettyPhoto();
+          });
+        </script>
         
         <div class="row">
           <nav class="navbar navbar-inverse navbar-embossed navbar-fixed-top" role="navigation">
@@ -51,26 +64,35 @@
             </div><!-- /.navbar-collapse -->
           </nav><!-- /navbar -->
       </div> <!-- /row -->
-    
+
+    <!-- Main contents -->
     <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <h1 class="text-center">元町高架通</h1>
+        
+         <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h1 class="text-center">VR</h1>
+                
+                <iframe src="./vrview/index.html?image=../images/motoko-top.jpg&amp;is_stereo=false" width="100%" height="250px" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                <!--img src="./images/maps.png" class="img-responsive" alt="Responsive image"-->
+                
                 <p>RICOH Theta Sで撮影。AndroidのChromeで閲覧するとVRモードになります。</p>
-                <iframe src="./vrview/index.html?video=../videos/motoko-sample.mp4&amp;is_stereo=false" width="100%" height="450px" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                <ul class="gallery clearfix">
+                    <li><a href="./vrview/index.html?video=../videos/motoko-sample.mp4&amp;is_stereo=false&amp;q=prettyphoto&amp;iframe=true&amp;width=100%&amp;height=100%" rel="prettyPhoto[iframe]">モトコー</a></li>
+                    <li><a href="./vrview/index.html?video=../videos/sunrise-train.mp4&amp;is_stereo=false&amp;q=prettyphoto&amp;iframe=true&amp;width=100%&amp;height=100%" rel="prettyPhoto[iframe]">サンライズ出雲</a></li>
+                </ul>
                 
                 <blockquote>
-                    <p>3世代前に神戸へ移住したある神戸人が「神戸らしい風景」を問われた時、筆頭にあがるのは「モトコー」だと言った。震災前から続く「妖しい港町の情景」が残っているためである。</p>
+                    <p>松江城（まつえじょう）は、島根県松江市殿町にある日本の城跡。別名・千鳥城。現存天守は国宝に、城跡は国の史跡に指定されている。この他に日本さくら名所100選や都市景観100選に選ばれている。</p>
+                    <footer>参考文献 <cite title="Source Title">Wikipedia</cite></footer>
                 </blockquote>
                 
             </div>
         </div>
     </div>
   
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="./js/vendor/jquery.min.js"></script>
+    <!-- necessary for Bootstrap's JavaScript plugins -->
     <script src="./js/vendor/video.js"></script>    
     <script src="./js/flat-ui.min.js"></script>    
-	
+        
     </body>
 </html>
