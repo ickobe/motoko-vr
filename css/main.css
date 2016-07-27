@@ -6,3 +6,29 @@ iframe {margin-top:0.5em;margin-bottom:1.2em;}
 */
 
 h1 {margin-bottom: 0.8em;}
+
+ul.tile-gallery {
+    display:table;
+    table-layout:fixed;
+    width:100%;
+    margin:0 auto;
+    padding-left:0;
+    padding-right:0;
+    padding-top:5px;
+    padding-bottom:20px;
+}
+ul.tile-gallery li {
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    background-color:white;
+    border-left:1px solid white;
+}
+ul.tile-gallery li:first-child {
+    border:none;    
+}
+ul.tile-gallery li a {
+    display:block;
+    text-decoration:none;
+    color:white;
+}
