@@ -5,6 +5,22 @@ h1 {margin-bottom: 0.8em;}
 iframe {margin-top:0.5em;margin-bottom:1.2em;}
 */
 
+.video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: black;
+  opacity: 0.8;
+}
+
 h1 {margin-bottom: 0.8em;}
 
 ul.tile-gallery {
