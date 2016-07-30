@@ -12,14 +12,14 @@
 			hook: 'rel', /* the attribute tag to use for prettyPhoto hooks. default: 'rel'. For HTML5, use "data-rel" or similar. */
 			animation_speed: 'fast', /* fast/slow/normal */
 			ajaxcallback: function() {},
-			slideshow: 60000, /* false OR interval time in ms */
+			slideshow: 180000, /* false OR interval time in ms */
 			autoplay_slideshow: true, /* true/false */
 			opacity: 0.80, /* Value between 0 and 1 */
 			show_title: true, /* true/false */
 			allow_resize: true, /* Resize the photos bigger than viewport. true/false */
 			allow_expand: true, /* Allow the user to expand a resized image. true/false */
-			default_width: 640,
-			default_height: 360,
+			default_width: 1180,
+			default_height:  600,
 			counter_separator_label: '/', /* The separator for the gallery counter 1 "of" 2 */
 			theme: 'pp_default', /* light_rounded / dark_rounded / light_square / dark_square / facebook */
 			horizontal_padding: 20, /* The padding on each side of the picture */
