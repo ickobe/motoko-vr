@@ -1,0 +1,13 @@
+# モトコーVRをスマホで楽しむ
+
+
+## 360 度動画をYouTubeで視聴する
+
+Google Cardboard を使うと、簡単にバーチャル リアリティを体験できます。Cardboard 本体と Android 向け YouTube アプリがあれば、360 度動画を視聴してその世界に入り込むような感覚も楽しむことができます。
+
+1. Google Cardboard (VR ゴーグル) を入手して組み立てます。
+2. QRコードを読み取れるアプリ (link:https://goo.gl/3uL0cO[NTT DOCOMO「ICタグ・バーコードリーダー」]等)で下記QRコードを読み取ります。
+3. image:./images/motoko-vr-youtube.png[] https://goo.gl/JrUVOA
+4. 動画を再生し、Cardboard アイコン image:https://storage.googleapis.com/support-kms-prod/ED06541043D9B49799EFBF07A2966B453B34[] をタップします。画面が 2 つの小さな画面に分割されます。
+5. お使いのスマートフォンを Cardboard に挿し込みます。
+6. 辺りを見回すようにして、360 度動画の全方位を見渡します。
